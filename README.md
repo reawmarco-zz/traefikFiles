@@ -18,6 +18,9 @@ services:
 networks:
   traefik-public:
     external: true
+    
+    
+    
 # cat traefik_deploy_https.yaml
 version: '3'
 
